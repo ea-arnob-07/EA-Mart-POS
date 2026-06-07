@@ -5,3 +5,4 @@
 - **2026-06-06**: chore(styles): set up Tailwind CSS v4 and PostCSS pipeline
 - **2026-06-06**: chore(lint): configure ESLint 9 rules for strict type safety
 - **2026-06-06**: chore(deps): add Lucide React icons and Recharts data visualization
+- **2026-06-07**: chore(deps): install Prisma ORM 6 and bcryptjs for authentication
