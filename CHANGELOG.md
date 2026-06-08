@@ -11,3 +11,4 @@
 - **2026-06-07**: feat(store): define Store and CashRegister models for multi-branch support
 - **2026-06-08**: feat(products): define Product, Category, Brand, and Supplier models
 - **2026-06-08**: feat(inventory): define Inventory and InventoryTransaction audit models
+- **2026-06-08**: feat(batches): define StockBatch model for perishable goods and expiry tracking
