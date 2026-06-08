@@ -9,3 +9,4 @@
 - **2026-06-07**: feat(db): initialize Prisma schema datasource with PostgreSQL provider
 - **2026-06-07**: feat(auth): define User model and multi-role RBAC schema
 - **2026-06-07**: feat(store): define Store and CashRegister models for multi-branch support
+- **2026-06-08**: feat(products): define Product, Category, Brand, and Supplier models
