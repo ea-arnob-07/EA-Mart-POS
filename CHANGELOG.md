@@ -12,3 +12,4 @@
 - **2026-06-08**: feat(products): define Product, Category, Brand, and Supplier models
 - **2026-06-08**: feat(inventory): define Inventory and InventoryTransaction audit models
 - **2026-06-08**: feat(batches): define StockBatch model for perishable goods and expiry tracking
+- **2026-06-09**: feat(sales): define Sale, SaleItem, and Payment models with split-tender support
