@@ -17,3 +17,4 @@
 - **2026-06-09**: feat(transfers): define StockTransfer and StockTransferItem models
 - **2026-06-10**: feat(purchasing): define PurchaseOrder and GoodsReceipt models
 - **2026-06-10**: feat(loyalty): define Customer and LoyaltyTransaction models
+- **2026-06-10**: feat(eod): define StoreDay and CashMovement models for shift balancing
