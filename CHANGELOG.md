@@ -15,3 +15,4 @@
 - **2026-06-09**: feat(sales): define Sale, SaleItem, and Payment models with split-tender support
 - **2026-06-09**: feat(returns): define Refund and RefundItem models with restock tracking
 - **2026-06-09**: feat(transfers): define StockTransfer and StockTransferItem models
+- **2026-06-10**: feat(purchasing): define PurchaseOrder and GoodsReceipt models
