@@ -16,3 +16,4 @@
 - **2026-06-09**: feat(returns): define Refund and RefundItem models with restock tracking
 - **2026-06-09**: feat(transfers): define StockTransfer and StockTransferItem models
 - **2026-06-10**: feat(purchasing): define PurchaseOrder and GoodsReceipt models
+- **2026-06-10**: feat(loyalty): define Customer and LoyaltyTransaction models
