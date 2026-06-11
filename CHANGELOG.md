@@ -18,3 +18,4 @@
 - **2026-06-10**: feat(purchasing): define PurchaseOrder and GoodsReceipt models
 - **2026-06-10**: feat(loyalty): define Customer and LoyaltyTransaction models
 - **2026-06-10**: feat(eod): define StoreDay and CashMovement models for shift balancing
+- **2026-06-11**: feat(audit): define AuditLog model for tracking privileged actions
