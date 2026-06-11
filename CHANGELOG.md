@@ -20,3 +20,4 @@
 - **2026-06-10**: feat(eod): define StoreDay and CashMovement models for shift balancing
 - **2026-06-11**: feat(audit): define AuditLog model for tracking privileged actions
 - **2026-06-11**: feat(settings): define Setting model for key-value configuration
+- **2026-06-11**: feat(api/auth): implement login endpoint with bcrypt password verification
