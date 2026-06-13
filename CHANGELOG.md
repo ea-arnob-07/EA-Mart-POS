@@ -25,3 +25,4 @@
 - **2026-06-12**: feat(api/auth): implement current user verification endpoint /api/auth/me
 - **2026-06-12**: feat(api/auth): add demo login endpoint for rapid role switching
 - **2026-06-13**: feat(api/auth): implement secure logout handler clearing auth cookies
+- **2026-06-13**: feat(api/products): implement product listing with search and pagination
