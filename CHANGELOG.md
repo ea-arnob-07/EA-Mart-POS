@@ -28,3 +28,4 @@
 - **2026-06-13**: feat(api/products): implement product listing with search and pagination
 - **2026-06-13**: feat(api/products): implement product creation with SKU/barcode validation
 - **2026-06-14**: feat(api/products): implement product update and soft-deletion endpoints
+- **2026-06-14**: feat(api/categories): add CRUD endpoints for product categories and icons
