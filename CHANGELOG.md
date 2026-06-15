@@ -30,3 +30,4 @@
 - **2026-06-14**: feat(api/products): implement product update and soft-deletion endpoints
 - **2026-06-14**: feat(api/categories): add CRUD endpoints for product categories and icons
 - **2026-06-14**: feat(api/suppliers): add supplier registry endpoints with payment terms
+- **2026-06-15**: feat(api/pos): implement barcode lookup endpoint supporting EAN-13 and UPC
