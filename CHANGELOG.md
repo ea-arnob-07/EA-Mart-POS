@@ -33,3 +33,4 @@
 - **2026-06-15**: feat(api/pos): implement barcode lookup endpoint supporting EAN-13 and UPC
 - **2026-06-15**: feat(api/pos): implement transaction checkout endpoint with stock deduction
 - **2026-06-15**: feat(api/sales): add sales invoice lookup and receipt number generator
+- **2026-06-16**: feat(api/sales): add receipt reprint and detail retrieval endpoint
