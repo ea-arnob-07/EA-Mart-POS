@@ -35,3 +35,4 @@
 - **2026-06-15**: feat(api/sales): add sales invoice lookup and receipt number generator
 - **2026-06-16**: feat(api/sales): add receipt reprint and detail retrieval endpoint
 - **2026-06-16**: feat(api/register): implement cash register shift open endpoint
+- **2026-06-16**: feat(api/register): implement shift close and variance calculation endpoint
