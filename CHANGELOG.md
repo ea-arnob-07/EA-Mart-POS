@@ -37,3 +37,4 @@
 - **2026-06-16**: feat(api/register): implement cash register shift open endpoint
 - **2026-06-16**: feat(api/register): implement shift close and variance calculation endpoint
 - **2026-06-17**: feat(api/register): implement cash-in and cash-out petty cash movements
+- **2026-06-17**: feat(api/store-day): implement business day open and closure endpoints
