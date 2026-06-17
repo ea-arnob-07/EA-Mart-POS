@@ -39,3 +39,4 @@
 - **2026-06-17**: feat(api/register): implement cash-in and cash-out petty cash movements
 - **2026-06-17**: feat(api/store-day): implement business day open and closure endpoints
 - **2026-06-17**: feat(api/inventory): implement stock level query by store and warehouse
+- **2026-06-17**: feat(api/inventory): implement manual stock adjustment with reason codes
