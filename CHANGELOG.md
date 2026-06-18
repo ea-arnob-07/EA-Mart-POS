@@ -40,3 +40,4 @@
 - **2026-06-17**: feat(api/store-day): implement business day open and closure endpoints
 - **2026-06-17**: feat(api/inventory): implement stock level query by store and warehouse
 - **2026-06-17**: feat(api/inventory): implement manual stock adjustment with reason codes
+- **2026-06-18**: feat(api/transfers): implement inter-store transfer requisition endpoint
