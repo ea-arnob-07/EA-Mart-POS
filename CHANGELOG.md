@@ -43,3 +43,4 @@
 - **2026-06-18**: feat(api/transfers): implement inter-store transfer requisition endpoint
 - **2026-06-18**: feat(api/transfers): implement transfer dispatch and goods receipt workflow
 - **2026-06-18**: feat(api/purchasing): implement purchase order generation and status tracking
+- **2026-06-19**: feat(api/purchasing): implement goods receiving note (GRN) acceptance
