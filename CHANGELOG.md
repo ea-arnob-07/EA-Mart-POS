@@ -46,3 +46,4 @@
 - **2026-06-19**: feat(api/purchasing): implement goods receiving note (GRN) acceptance
 - **2026-06-19**: feat(api/customers): implement customer directory and tier calculation
 - **2026-06-19**: feat(api/promotions): implement promotional rules engine and coupon validation
+- **2026-06-20**: feat(api/expenses): add expense tracking endpoint categorized by store
