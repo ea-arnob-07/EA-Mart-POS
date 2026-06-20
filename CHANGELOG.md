@@ -48,3 +48,4 @@
 - **2026-06-19**: feat(api/promotions): implement promotional rules engine and coupon validation
 - **2026-06-20**: feat(api/expenses): add expense tracking endpoint categorized by store
 - **2026-06-20**: feat(api/returns): implement customer refund and inventory restocking endpoint
+- **2026-06-20**: feat(api/reports): implement executive sales, margin, and tax analytics API
