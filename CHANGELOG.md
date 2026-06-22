@@ -54,3 +54,4 @@
 - **2026-06-21**: feat(ui/pos): implement ProductGrid component with category filter tabs
 - **2026-06-22**: feat(ui/pos): implement CartTable with quantity toggles and line discounts
 - **2026-06-22**: feat(ui/pos): implement OrderSummary displaying subtotal, VAT, and rounding
+- **2026-06-22**: feat(ui/pos): build PaymentModal supporting Cash, Card, and Mobile Banking
