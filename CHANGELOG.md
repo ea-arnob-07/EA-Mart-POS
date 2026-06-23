@@ -56,3 +56,4 @@
 - **2026-06-22**: feat(ui/pos): implement OrderSummary displaying subtotal, VAT, and rounding
 - **2026-06-22**: feat(ui/pos): build PaymentModal supporting Cash, Card, and Mobile Banking
 - **2026-06-23**: feat(ui/pos): add bKash, Nagad, and Rocket mobile payment tender options
+- **2026-06-23**: feat(ui/pos): build ReceiptModal with 80mm thermal receipt formatted layout
