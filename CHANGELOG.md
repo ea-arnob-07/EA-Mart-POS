@@ -58,3 +58,4 @@
 - **2026-06-23**: feat(ui/pos): add bKash, Nagad, and Rocket mobile payment tender options
 - **2026-06-23**: feat(ui/pos): build ReceiptModal with 80mm thermal receipt formatted layout
 - **2026-06-23**: feat(ui/pos): implement CustomerSelectModal with search and tier indicator
+- **2026-06-24**: feat(ui/pos): build HoldSalesModal for parking and resuming suspended carts
