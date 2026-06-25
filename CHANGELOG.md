@@ -62,3 +62,4 @@
 - **2026-06-24**: feat(ui/pos): build CameraScannerModal for webcam barcode recognition
 - **2026-06-24**: feat(ui/pos): implement dual-screen customer display /pos/customer-display
 - **2026-06-25**: feat(state): implement POSContext managing active cart and barcode stream
+- **2026-06-25**: feat(state): implement AppContext managing current user, store, and currency
