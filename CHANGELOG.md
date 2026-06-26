@@ -64,3 +64,4 @@
 - **2026-06-25**: feat(state): implement POSContext managing active cart and barcode stream
 - **2026-06-25**: feat(state): implement AppContext managing current user, store, and currency
 - **2026-06-25**: feat(state): add sound feedback effects on barcode scan and checkout
+- **2026-06-26**: feat(state): add offline detection and transaction queueing readiness
