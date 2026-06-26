@@ -66,3 +66,4 @@
 - **2026-06-25**: feat(state): add sound feedback effects on barcode scan and checkout
 - **2026-06-26**: feat(state): add offline detection and transaction queueing readiness
 - **2026-06-26**: feat(currency): configure BDT currency symbol (৳) and formatting helper
+- **2026-06-26**: feat(pages): implement executive KPI dashboard with Recharts revenue graph
