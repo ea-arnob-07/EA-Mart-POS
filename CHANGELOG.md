@@ -67,3 +67,4 @@
 - **2026-06-26**: feat(state): add offline detection and transaction queueing readiness
 - **2026-06-26**: feat(currency): configure BDT currency symbol (৳) and formatting helper
 - **2026-06-26**: feat(pages): implement executive KPI dashboard with Recharts revenue graph
+- **2026-06-27**: feat(pages): build Products management table with live search and filter
