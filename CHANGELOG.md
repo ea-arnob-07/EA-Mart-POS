@@ -71,3 +71,4 @@
 - **2026-06-27**: feat(pages): build Inventory dashboard with low stock and expiry badges
 - **2026-06-27**: feat(pages): build Cash Register shift reconciliation and cash drawer view
 - **2026-06-28**: feat(pages): build Purchasing portal with supplier PO creation wizard
+- **2026-06-28**: feat(pages): build Stock Transfers screen with dispatch and receive stages
