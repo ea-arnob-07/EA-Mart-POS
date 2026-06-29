@@ -76,3 +76,4 @@
 - **2026-06-28**: feat(pages): build Promotions engine with BOGO and percentage discount rules
 - **2026-06-29**: feat(pages): build Returns & Refunds management portal
 - **2026-06-29**: feat(pages): build Store Expenses tracker with receipt attachment support
+- **2026-06-29**: feat(pages): build End-of-Day (EOD) daily store settlement dashboard
