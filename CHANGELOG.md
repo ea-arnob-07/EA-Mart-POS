@@ -74,3 +74,4 @@
 - **2026-06-28**: feat(pages): build Stock Transfers screen with dispatch and receive stages
 - **2026-06-28**: feat(pages): build Customer management table with loyalty points balance
 - **2026-06-28**: feat(pages): build Promotions engine with BOGO and percentage discount rules
+- **2026-06-29**: feat(pages): build Returns & Refunds management portal
