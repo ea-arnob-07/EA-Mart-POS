@@ -78,3 +78,4 @@
 - **2026-06-29**: feat(pages): build Store Expenses tracker with receipt attachment support
 - **2026-06-29**: feat(pages): build End-of-Day (EOD) daily store settlement dashboard
 - **2026-06-30**: feat(pages): build Audit Trail viewer with JSON diff inspector
+- **2026-06-30**: feat(pages): build System Settings panel for tax rates and receipt headers
