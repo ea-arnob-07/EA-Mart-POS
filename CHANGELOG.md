@@ -81,3 +81,4 @@
 - **2026-06-30**: feat(pages): build System Settings panel for tax rates and receipt headers
 - **2026-06-30**: feat(pages): build modern Login page with quick demo role picker
 - **2026-07-01**: feat(seed): create robust seed script with 9 staff roles and 3 stores
+- **2026-07-01**: feat(seed): populate Flagship, Metro Express, and Central DC stores
