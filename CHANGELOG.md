@@ -84,3 +84,4 @@
 - **2026-07-01**: feat(seed): populate Flagship, Metro Express, and Central DC stores
 - **2026-07-01**: feat(seed): seed realistic product catalogue with BDT pricing and VAT
 - **2026-07-02**: feat(seed): seed sample stock batches with expiration dates
+- **2026-07-02**: feat(seed): seed initial cash register shifts and customer profiles
