@@ -83,3 +83,4 @@
 - **2026-07-01**: feat(seed): create robust seed script with 9 staff roles and 3 stores
 - **2026-07-01**: feat(seed): populate Flagship, Metro Express, and Central DC stores
 - **2026-07-01**: feat(seed): seed realistic product catalogue with BDT pricing and VAT
+- **2026-07-02**: feat(seed): seed sample stock batches with expiration dates
