@@ -85,3 +85,4 @@
 - **2026-07-01**: feat(seed): seed realistic product catalogue with BDT pricing and VAT
 - **2026-07-02**: feat(seed): seed sample stock batches with expiration dates
 - **2026-07-02**: feat(seed): seed initial cash register shifts and customer profiles
+- **2026-07-02**: test(workflow): create end-to-end POS workflow test script
