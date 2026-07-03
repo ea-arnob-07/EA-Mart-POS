@@ -88,3 +88,4 @@
 - **2026-07-02**: test(workflow): create end-to-end POS workflow test script
 - **2026-07-03**: test(qa): add comprehensive QA verification test suite
 - **2026-07-03**: test(auth): verify RBAC access guards for cashier vs store manager
+- **2026-07-03**: test(inventory): verify inventory decrements synchronously upon checkout
