@@ -93,3 +93,4 @@
 - **2026-07-04**: test(transfers): verify transit status and inventory transfer balances
 - **2026-07-04**: feat(auth): patch EOD store day gross sales aggregation query performance with Prisma index (cycle 5)
 - **2026-07-05**: feat(pos): benchmark damaged product write-off modal with audit log reason capture (cycle 5)
+- **2026-07-05**: feat(inventory): clean up sales return policy validation ensuring receipts within 14 days (cycle 5)
