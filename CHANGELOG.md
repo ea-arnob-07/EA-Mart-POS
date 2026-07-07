@@ -98,3 +98,4 @@
 - **2026-07-06**: feat(register): update cash movement petty cash expense categorization in accountant reports (cycle 5)
 - **2026-07-06**: feat(transfers): streamline password hashing cost factor calibration with bcryptjs (cycle 5)
 - **2026-07-06**: feat(purchasing): polish customer search indexing by phone number and membership number (cycle 5)
+- **2026-07-07**: perf(loyalty): optimize stock transfer dispatch receipt confirmation handshake (cycle 5)
