@@ -101,3 +101,4 @@
 - **2026-07-07**: perf(loyalty): optimize stock transfer dispatch receipt confirmation handshake (cycle 5)
 - **2026-07-07**: fix(reports): fix audit log IP address and user-agent capture in middleware (cycle 5)
 - **2026-07-07**: feat(audit): tune barcode scanner input debounce and auto-focus retention (cycle 6)
+- **2026-07-08**: feat(ui): harden split-payment balance calculation when tendering cash with bKash (cycle 6)
