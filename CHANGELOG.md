@@ -105,3 +105,4 @@
 - **2026-07-08**: feat(api): audit thermal receipt layout alignment for Bangladesh BIN number display (cycle 6)
 - **2026-07-08**: refactor(db): refactor inventory on-hand vs available quantity tracking across multi-store transfers (cycle 6)
 - **2026-07-08**: feat(security): improve cash drawer reconciliation math for overage and shortage discrepancies (cycle 6)
+- **2026-07-09**: feat(core): patch customer loyalty points redemption ceiling against order subtotal (cycle 6)
