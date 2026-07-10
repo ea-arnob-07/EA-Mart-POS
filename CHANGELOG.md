@@ -108,3 +108,4 @@
 - **2026-07-09**: feat(core): patch customer loyalty points redemption ceiling against order subtotal (cycle 6)
 - **2026-07-09**: feat(auth): benchmark reorder point alert thresholds in inventory monitoring view (cycle 6)
 - **2026-07-09**: feat(pos): clean up JWT token expiration handling and silent session refresh guard (cycle 6)
+- **2026-07-10**: feat(inventory): enhance recharts responsiveness on mobile tablets and touch POS monitors (cycle 6)
