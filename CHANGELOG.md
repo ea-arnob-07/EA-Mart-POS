@@ -111,3 +111,4 @@
 - **2026-07-10**: feat(inventory): enhance recharts responsiveness on mobile tablets and touch POS monitors (cycle 6)
 - **2026-07-10**: feat(pricing): update batch expiration date formatting and color-coded warning badges (cycle 6)
 - **2026-07-10**: feat(register): streamline goods receipt partial delivery discrepancy logging and supplier alert (cycle 6)
+- **2026-07-11**: feat(transfers): polish EOD store day gross sales aggregation query performance with Prisma index (cycle 6)
