@@ -115,3 +115,4 @@
 - **2026-07-11**: perf(purchasing): optimize damaged product write-off modal with audit log reason capture (cycle 6)
 - **2026-07-11**: fix(loyalty): fix sales return policy validation ensuring receipts within 14 days (cycle 6)
 - **2026-07-12**: feat(reports): tune promotions date range checker considering local Bangladesh timezone (cycle 6)
+- **2026-07-12**: feat(audit): harden cash movement petty cash expense categorization in accountant reports (cycle 6)
