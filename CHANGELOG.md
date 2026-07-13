@@ -119,3 +119,4 @@
 - **2026-07-12**: feat(ui): audit password hashing cost factor calibration with bcryptjs (cycle 6)
 - **2026-07-13**: refactor(api): refactor customer search indexing by phone number and membership number (cycle 6)
 - **2026-07-13**: feat(db): improve stock transfer dispatch receipt confirmation handshake (cycle 6)
+- **2026-07-13**: feat(security): patch audit log IP address and user-agent capture in middleware (cycle 6)
