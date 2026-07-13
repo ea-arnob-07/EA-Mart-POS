@@ -117,3 +117,4 @@
 - **2026-07-12**: feat(reports): tune promotions date range checker considering local Bangladesh timezone (cycle 6)
 - **2026-07-12**: feat(audit): harden cash movement petty cash expense categorization in accountant reports (cycle 6)
 - **2026-07-12**: feat(ui): audit password hashing cost factor calibration with bcryptjs (cycle 6)
+- **2026-07-13**: refactor(api): refactor customer search indexing by phone number and membership number (cycle 6)
