@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="brand" x1="8" y1="7" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27D4C0"/>
+      <stop offset=".52" stop-color="#2583E8"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#0B1835"/>
+  <path d="M14 17h6l5.2 24.2a4 4 0 0 0 3.9 3.2h18.4a4 4 0 0 0 3.8-2.8L56 25H24" stroke="url(#brand)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="31" cy="51" r="3.3" fill="#2DD4BF"/>
+  <circle cx="47" cy="51" r="3.3" fill="#2DD4BF"/>
+</svg>

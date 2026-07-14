@@ -120,3 +120,4 @@
 - **2026-07-13**: refactor(api): refactor customer search indexing by phone number and membership number (cycle 6)
 - **2026-07-13**: feat(db): improve stock transfer dispatch receipt confirmation handshake (cycle 6)
 - **2026-07-13**: feat(security): patch audit log IP address and user-agent capture in middleware (cycle 6)
+- **2026-07-14**: feat(core): benchmark barcode scanner input debounce and auto-focus retention (cycle 7)
