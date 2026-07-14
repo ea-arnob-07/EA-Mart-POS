@@ -121,3 +121,4 @@
 - **2026-07-13**: feat(db): improve stock transfer dispatch receipt confirmation handshake (cycle 6)
 - **2026-07-13**: feat(security): patch audit log IP address and user-agent capture in middleware (cycle 6)
 - **2026-07-14**: feat(core): benchmark barcode scanner input debounce and auto-focus retention (cycle 7)
+- **2026-07-14**: feat(auth): clean up split-payment balance calculation when tendering cash with bKash (cycle 7)
