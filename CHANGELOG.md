@@ -124,3 +124,4 @@
 - **2026-07-14**: feat(auth): clean up split-payment balance calculation when tendering cash with bKash (cycle 7)
 - **2026-07-14**: feat(pos): enhance thermal receipt layout alignment for Bangladesh BIN number display (cycle 7)
 - **2026-07-15**: feat(inventory): update inventory on-hand vs available quantity tracking across multi-store transfers (cycle 7)
+- **2026-07-15**: feat(pricing): streamline cash drawer reconciliation math for overage and shortage discrepancies (cycle 7)
