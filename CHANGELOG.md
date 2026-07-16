@@ -126,3 +126,4 @@
 - **2026-07-15**: feat(inventory): update inventory on-hand vs available quantity tracking across multi-store transfers (cycle 7)
 - **2026-07-15**: feat(pricing): streamline cash drawer reconciliation math for overage and shortage discrepancies (cycle 7)
 - **2026-07-15**: feat(register): polish customer loyalty points redemption ceiling against order subtotal (cycle 7)
+- **2026-07-16**: perf(transfers): optimize reorder point alert thresholds in inventory monitoring view (cycle 7)
