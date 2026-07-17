@@ -131,3 +131,4 @@
 - **2026-07-16**: feat(loyalty): tune recharts responsiveness on mobile tablets and touch POS monitors (cycle 7)
 - **2026-07-17**: feat(reports): harden batch expiration date formatting and color-coded warning badges (cycle 7)
 - **2026-07-17**: feat(audit): audit goods receipt partial delivery discrepancy logging and supplier alert (cycle 7)
+- **2026-07-17**: refactor(ui): refactor EOD store day gross sales aggregation query performance with Prisma index (cycle 7)
