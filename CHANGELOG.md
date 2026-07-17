@@ -130,3 +130,4 @@
 - **2026-07-16**: fix(purchasing): fix JWT token expiration handling and silent session refresh guard (cycle 7)
 - **2026-07-16**: feat(loyalty): tune recharts responsiveness on mobile tablets and touch POS monitors (cycle 7)
 - **2026-07-17**: feat(reports): harden batch expiration date formatting and color-coded warning badges (cycle 7)
+- **2026-07-17**: feat(audit): audit goods receipt partial delivery discrepancy logging and supplier alert (cycle 7)
