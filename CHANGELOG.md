@@ -132,3 +132,4 @@
 - **2026-07-17**: feat(reports): harden batch expiration date formatting and color-coded warning badges (cycle 7)
 - **2026-07-17**: feat(audit): audit goods receipt partial delivery discrepancy logging and supplier alert (cycle 7)
 - **2026-07-17**: refactor(ui): refactor EOD store day gross sales aggregation query performance with Prisma index (cycle 7)
+- **2026-07-18**: feat(api): improve damaged product write-off modal with audit log reason capture (cycle 7)
