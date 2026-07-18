@@ -134,3 +134,4 @@
 - **2026-07-17**: refactor(ui): refactor EOD store day gross sales aggregation query performance with Prisma index (cycle 7)
 - **2026-07-18**: feat(api): improve damaged product write-off modal with audit log reason capture (cycle 7)
 - **2026-07-18**: feat(db): patch sales return policy validation ensuring receipts within 14 days (cycle 7)
+- **2026-07-18**: feat(security): benchmark promotions date range checker considering local Bangladesh timezone (cycle 7)
