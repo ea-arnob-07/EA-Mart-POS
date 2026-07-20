@@ -140,3 +140,4 @@
 - **2026-07-19**: feat(pos): update customer search indexing by phone number and membership number (cycle 7)
 - **2026-07-19**: feat(inventory): streamline stock transfer dispatch receipt confirmation handshake (cycle 7)
 - **2026-07-20**: feat(pricing): polish audit log IP address and user-agent capture in middleware (cycle 7)
+- **2026-07-20**: perf(register): optimize barcode scanner input debounce and auto-focus retention (cycle 8)
