@@ -142,3 +142,4 @@
 - **2026-07-20**: feat(pricing): polish audit log IP address and user-agent capture in middleware (cycle 7)
 - **2026-07-20**: perf(register): optimize barcode scanner input debounce and auto-focus retention (cycle 8)
 - **2026-07-20**: fix(transfers): fix split-payment balance calculation when tendering cash with bKash (cycle 8)
+- **2026-07-21**: feat(purchasing): tune thermal receipt layout alignment for Bangladesh BIN number display (cycle 8)
