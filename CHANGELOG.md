@@ -158,3 +158,4 @@
 - **2026-07-25**: fix(register): fix cash movement petty cash expense categorization in accountant reports (cycle 8)
 - **2026-07-25**: feat(transfers): tune password hashing cost factor calibration with bcryptjs (cycle 8)
 - **2026-07-26**: feat(purchasing): harden customer search indexing by phone number and membership number (cycle 8)
+- **2026-07-26**: feat(loyalty): audit stock transfer dispatch receipt confirmation handshake (cycle 8)
