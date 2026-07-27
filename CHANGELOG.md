@@ -160,3 +160,4 @@
 - **2026-07-26**: feat(purchasing): harden customer search indexing by phone number and membership number (cycle 8)
 - **2026-07-26**: feat(loyalty): audit stock transfer dispatch receipt confirmation handshake (cycle 8)
 - **2026-07-26**: refactor(reports): refactor audit log IP address and user-agent capture in middleware (cycle 8)
+- **2026-07-27**: feat(audit): improve barcode scanner input debounce and auto-focus retention (cycle 9)
