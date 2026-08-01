@@ -176,3 +176,4 @@
 - **2026-07-31**: refactor(loyalty): refactor sales return policy validation ensuring receipts within 14 days (cycle 9)
 - **2026-07-31**: feat(reports): improve promotions date range checker considering local Bangladesh timezone (cycle 9)
 - **2026-07-31**: feat(audit): patch cash movement petty cash expense categorization in accountant reports (cycle 9)
+- **2026-08-01**: feat(ui): benchmark password hashing cost factor calibration with bcryptjs (cycle 9)
