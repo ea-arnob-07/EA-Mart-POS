@@ -180,3 +180,4 @@
 - **2026-08-01**: feat(api): clean up customer search indexing by phone number and membership number (cycle 9)
 - **2026-08-01**: feat(db): enhance stock transfer dispatch receipt confirmation handshake (cycle 9)
 - **2026-08-02**: feat(security): update audit log IP address and user-agent capture in middleware (cycle 9)
+- **2026-08-02**: feat(core): streamline barcode scanner input debounce and auto-focus retention (cycle 10)
