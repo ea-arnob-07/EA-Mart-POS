@@ -184,3 +184,4 @@
 - **2026-08-02**: feat(auth): polish split-payment balance calculation when tendering cash with bKash (cycle 10)
 - **2026-08-03**: perf(pos): optimize thermal receipt layout alignment for Bangladesh BIN number display (cycle 10)
 - **2026-08-03**: fix(inventory): fix inventory on-hand vs available quantity tracking across multi-store transfers (cycle 10)
+- **2026-08-03**: feat(pricing): tune cash drawer reconciliation math for overage and shortage discrepancies (cycle 10)
