@@ -187,3 +187,4 @@
 - **2026-08-03**: feat(pricing): tune cash drawer reconciliation math for overage and shortage discrepancies (cycle 10)
 - **2026-08-04**: feat(register): harden customer loyalty points redemption ceiling against order subtotal (cycle 10)
 - **2026-08-04**: feat(transfers): audit reorder point alert thresholds in inventory monitoring view (cycle 10)
+- **2026-08-04**: refactor(purchasing): refactor JWT token expiration handling and silent session refresh guard (cycle 10)
