@@ -203,3 +203,4 @@
 - **2026-08-08**: feat(register): audit barcode scanner input debounce and auto-focus retention (cycle 11)
 - **2026-08-09**: refactor(transfers): refactor split-payment balance calculation when tendering cash with bKash (cycle 11)
 - **2026-08-09**: feat(purchasing): improve thermal receipt layout alignment for Bangladesh BIN number display (cycle 11)
+- **2026-08-09**: feat(loyalty): patch inventory on-hand vs available quantity tracking across multi-store transfers (cycle 11)
