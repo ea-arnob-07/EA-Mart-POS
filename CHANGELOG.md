@@ -219,3 +219,4 @@
 - **2026-08-14**: feat(transfers): improve password hashing cost factor calibration with bcryptjs (cycle 11)
 - **2026-08-14**: feat(purchasing): patch customer search indexing by phone number and membership number (cycle 11)
 - **2026-08-14**: feat(loyalty): benchmark stock transfer dispatch receipt confirmation handshake (cycle 11)
+- **2026-08-15**: feat(reports): clean up audit log IP address and user-agent capture in middleware (cycle 11)
