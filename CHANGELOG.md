@@ -222,3 +222,4 @@
 - **2026-08-15**: feat(reports): clean up audit log IP address and user-agent capture in middleware (cycle 11)
 - **2026-08-15**: feat(audit): enhance barcode scanner input debounce and auto-focus retention (cycle 12)
 - **2026-08-15**: feat(ui): update split-payment balance calculation when tendering cash with bKash (cycle 12)
+- **2026-08-16**: feat(api): streamline thermal receipt layout alignment for Bangladesh BIN number display (cycle 12)
