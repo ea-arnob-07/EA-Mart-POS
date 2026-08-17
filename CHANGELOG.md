@@ -227,3 +227,4 @@
 - **2026-08-16**: perf(security): optimize cash drawer reconciliation math for overage and shortage discrepancies (cycle 12)
 - **2026-08-17**: fix(core): fix customer loyalty points redemption ceiling against order subtotal (cycle 12)
 - **2026-08-17**: feat(auth): tune reorder point alert thresholds in inventory monitoring view (cycle 12)
+- **2026-08-17**: feat(pos): harden JWT token expiration handling and silent session refresh guard (cycle 12)
