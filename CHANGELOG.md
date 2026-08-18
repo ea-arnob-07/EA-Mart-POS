@@ -230,3 +230,4 @@
 - **2026-08-17**: feat(pos): harden JWT token expiration handling and silent session refresh guard (cycle 12)
 - **2026-08-18**: feat(inventory): audit recharts responsiveness on mobile tablets and touch POS monitors (cycle 12)
 - **2026-08-18**: refactor(pricing): refactor batch expiration date formatting and color-coded warning badges (cycle 12)
+- **2026-08-18**: feat(register): improve goods receipt partial delivery discrepancy logging and supplier alert (cycle 12)
