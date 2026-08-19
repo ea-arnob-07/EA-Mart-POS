@@ -233,3 +233,4 @@
 - **2026-08-18**: feat(register): improve goods receipt partial delivery discrepancy logging and supplier alert (cycle 12)
 - **2026-08-18**: feat(transfers): patch EOD store day gross sales aggregation query performance with Prisma index (cycle 12)
 - **2026-08-19**: feat(purchasing): benchmark damaged product write-off modal with audit log reason capture (cycle 12)
+- **2026-08-19**: feat(loyalty): clean up sales return policy validation ensuring receipts within 14 days (cycle 12)
