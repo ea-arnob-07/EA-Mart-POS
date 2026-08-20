@@ -235,3 +235,4 @@
 - **2026-08-19**: feat(purchasing): benchmark damaged product write-off modal with audit log reason capture (cycle 12)
 - **2026-08-19**: feat(loyalty): clean up sales return policy validation ensuring receipts within 14 days (cycle 12)
 - **2026-08-19**: feat(reports): enhance promotions date range checker considering local Bangladesh timezone (cycle 12)
+- **2026-08-20**: feat(audit): update cash movement petty cash expense categorization in accountant reports (cycle 12)
