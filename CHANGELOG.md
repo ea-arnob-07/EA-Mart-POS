@@ -239,3 +239,4 @@
 - **2026-08-20**: feat(ui): streamline password hashing cost factor calibration with bcryptjs (cycle 12)
 - **2026-08-20**: feat(api): polish customer search indexing by phone number and membership number (cycle 12)
 - **2026-08-21**: perf(db): optimize stock transfer dispatch receipt confirmation handshake (cycle 12)
+- **2026-08-21**: fix(security): fix audit log IP address and user-agent capture in middleware (cycle 12)
