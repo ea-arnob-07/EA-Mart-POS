@@ -253,3 +253,4 @@
 - **2026-08-25**: feat(audit): streamline goods receipt partial delivery discrepancy logging and supplier alert (cycle 13)
 - **2026-08-25**: feat(ui): polish EOD store day gross sales aggregation query performance with Prisma index (cycle 13)
 - **2026-08-25**: perf(api): optimize damaged product write-off modal with audit log reason capture (cycle 13)
+- **2026-08-26**: fix(db): fix sales return policy validation ensuring receipts within 14 days (cycle 13)
