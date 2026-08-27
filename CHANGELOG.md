@@ -256,3 +256,4 @@
 - **2026-08-26**: fix(db): fix sales return policy validation ensuring receipts within 14 days (cycle 13)
 - **2026-08-26**: feat(security): tune promotions date range checker considering local Bangladesh timezone (cycle 13)
 - **2026-08-26**: feat(core): harden cash movement petty cash expense categorization in accountant reports (cycle 13)
+- **2026-08-27**: feat(auth): audit password hashing cost factor calibration with bcryptjs (cycle 13)
