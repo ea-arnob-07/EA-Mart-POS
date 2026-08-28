@@ -261,3 +261,4 @@
 - **2026-08-27**: feat(inventory): improve stock transfer dispatch receipt confirmation handshake (cycle 13)
 - **2026-08-28**: feat(pricing): patch audit log IP address and user-agent capture in middleware (cycle 13)
 - **2026-08-28**: feat(register): benchmark barcode scanner input debounce and auto-focus retention (cycle 14)
+- **2026-08-28**: feat(transfers): clean up split-payment balance calculation when tendering cash with bKash (cycle 14)
