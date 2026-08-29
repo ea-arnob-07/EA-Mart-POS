@@ -262,3 +262,4 @@
 - **2026-08-28**: feat(pricing): patch audit log IP address and user-agent capture in middleware (cycle 13)
 - **2026-08-28**: feat(register): benchmark barcode scanner input debounce and auto-focus retention (cycle 14)
 - **2026-08-28**: feat(transfers): clean up split-payment balance calculation when tendering cash with bKash (cycle 14)
+- **2026-08-29**: feat(purchasing): enhance thermal receipt layout alignment for Bangladesh BIN number display (cycle 14)
