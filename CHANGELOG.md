@@ -275,3 +275,4 @@
 - **2026-09-01**: feat(pos): improve damaged product write-off modal with audit log reason capture (cycle 14)
 - **2026-09-01**: feat(inventory): patch sales return policy validation ensuring receipts within 14 days (cycle 14)
 - **2026-09-01**: feat(pricing): benchmark promotions date range checker considering local Bangladesh timezone (cycle 14)
+- **2026-09-02**: feat(register): clean up cash movement petty cash expense categorization in accountant reports (cycle 14)
