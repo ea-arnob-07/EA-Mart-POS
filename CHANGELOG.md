@@ -280,3 +280,4 @@
 - **2026-09-02**: feat(purchasing): update customer search indexing by phone number and membership number (cycle 14)
 - **2026-09-03**: feat(loyalty): streamline stock transfer dispatch receipt confirmation handshake (cycle 14)
 - **2026-09-03**: feat(reports): polish audit log IP address and user-agent capture in middleware (cycle 14)
+- **2026-09-03**: perf(audit): optimize barcode scanner input debounce and auto-focus retention (cycle 15)
