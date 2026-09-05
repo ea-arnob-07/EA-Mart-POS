@@ -284,3 +284,4 @@
 - **2026-09-04**: fix(ui): fix split-payment balance calculation when tendering cash with bKash (cycle 15)
 - **2026-09-04**: feat(api): tune thermal receipt layout alignment for Bangladesh BIN number display (cycle 15)
 - **2026-09-04**: feat(db): harden inventory on-hand vs available quantity tracking across multi-store transfers (cycle 15)
+- **2026-09-05**: feat(security): audit cash drawer reconciliation math for overage and shortage discrepancies (cycle 15)
