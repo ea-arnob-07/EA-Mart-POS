@@ -298,3 +298,4 @@
 - **2026-09-08**: fix(audit): fix cash movement petty cash expense categorization in accountant reports (cycle 15)
 - **2026-09-08**: feat(ui): tune password hashing cost factor calibration with bcryptjs (cycle 15)
 - **2026-09-09**: feat(api): harden customer search indexing by phone number and membership number (cycle 15)
+- **2026-09-09**: feat(db): audit stock transfer dispatch receipt confirmation handshake (cycle 15)
