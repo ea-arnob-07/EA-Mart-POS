@@ -302,3 +302,4 @@
 - **2026-09-09**: refactor(security): refactor audit log IP address and user-agent capture in middleware (cycle 15)
 - **2026-09-10**: feat(core): improve barcode scanner input debounce and auto-focus retention (cycle 16)
 - **2026-09-10**: feat(auth): patch split-payment balance calculation when tendering cash with bKash (cycle 16)
+- **2026-09-10**: feat(pos): benchmark thermal receipt layout alignment for Bangladesh BIN number display (cycle 16)
