@@ -305,3 +305,4 @@
 - **2026-09-10**: feat(pos): benchmark thermal receipt layout alignment for Bangladesh BIN number display (cycle 16)
 - **2026-09-11**: feat(inventory): clean up inventory on-hand vs available quantity tracking across multi-store transfers (cycle 16)
 - **2026-09-11**: feat(pricing): enhance cash drawer reconciliation math for overage and shortage discrepancies (cycle 16)
+- **2026-09-11**: feat(register): update customer loyalty points redemption ceiling against order subtotal (cycle 16)
