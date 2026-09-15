@@ -317,3 +317,4 @@
 - **2026-09-14**: feat(security): improve promotions date range checker considering local Bangladesh timezone (cycle 16)
 - **2026-09-15**: feat(core): patch cash movement petty cash expense categorization in accountant reports (cycle 16)
 - **2026-09-15**: feat(auth): benchmark password hashing cost factor calibration with bcryptjs (cycle 16)
+- **2026-09-15**: feat(pos): clean up customer search indexing by phone number and membership number (cycle 16)
