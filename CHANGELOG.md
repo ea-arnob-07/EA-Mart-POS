@@ -315,3 +315,4 @@
 - **2026-09-14**: feat(api): audit damaged product write-off modal with audit log reason capture (cycle 16)
 - **2026-09-14**: refactor(db): refactor sales return policy validation ensuring receipts within 14 days (cycle 16)
 - **2026-09-14**: feat(security): improve promotions date range checker considering local Bangladesh timezone (cycle 16)
+- **2026-09-15**: feat(core): patch cash movement petty cash expense categorization in accountant reports (cycle 16)
