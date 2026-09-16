@@ -319,3 +319,4 @@
 - **2026-09-15**: feat(auth): benchmark password hashing cost factor calibration with bcryptjs (cycle 16)
 - **2026-09-15**: feat(pos): clean up customer search indexing by phone number and membership number (cycle 16)
 - **2026-09-16**: feat(inventory): enhance stock transfer dispatch receipt confirmation handshake (cycle 16)
+- **2026-09-16**: feat(pricing): update audit log IP address and user-agent capture in middleware (cycle 16)
