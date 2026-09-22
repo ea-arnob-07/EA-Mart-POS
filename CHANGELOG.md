@@ -338,3 +338,4 @@
 - **2026-09-21**: feat(register): polish cash movement petty cash expense categorization in accountant reports (cycle 17)
 - **2026-09-21**: perf(transfers): optimize password hashing cost factor calibration with bcryptjs (cycle 17)
 - **2026-09-22**: fix(purchasing): fix customer search indexing by phone number and membership number (cycle 17)
+- **2026-09-22**: feat(loyalty): tune stock transfer dispatch receipt confirmation handshake (cycle 17)
