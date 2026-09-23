@@ -340,3 +340,4 @@
 - **2026-09-22**: fix(purchasing): fix customer search indexing by phone number and membership number (cycle 17)
 - **2026-09-22**: feat(loyalty): tune stock transfer dispatch receipt confirmation handshake (cycle 17)
 - **2026-09-22**: feat(reports): harden audit log IP address and user-agent capture in middleware (cycle 17)
+- **2026-09-23**: feat(audit): audit barcode scanner input debounce and auto-focus retention (cycle 18)
