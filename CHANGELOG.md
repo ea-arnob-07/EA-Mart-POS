@@ -359,3 +359,4 @@
 - **2026-09-28**: feat(ui): improve password hashing cost factor calibration with bcryptjs (cycle 18)
 - **2026-09-28**: feat(api): patch customer search indexing by phone number and membership number (cycle 18)
 - **2026-09-29**: feat(db): benchmark stock transfer dispatch receipt confirmation handshake (cycle 18)
+- **2026-09-29**: feat(security): clean up audit log IP address and user-agent capture in middleware (cycle 18)
