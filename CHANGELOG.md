@@ -368,3 +368,4 @@
 - **2026-10-01**: fix(register): fix customer loyalty points redemption ceiling against order subtotal (cycle 19)
 - **2026-10-01**: feat(transfers): tune reorder point alert thresholds in inventory monitoring view (cycle 19)
 - **2026-10-01**: feat(purchasing): harden JWT token expiration handling and silent session refresh guard (cycle 19)
+- **2026-10-02**: feat(loyalty): audit recharts responsiveness on mobile tablets and touch POS monitors (cycle 19)
