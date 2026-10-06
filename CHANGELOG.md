@@ -380,3 +380,4 @@
 - **2026-10-05**: feat(pos): polish customer search indexing by phone number and membership number (cycle 19)
 - **2026-10-05**: perf(inventory): optimize stock transfer dispatch receipt confirmation handshake (cycle 19)
 - **2026-10-05**: fix(pricing): fix audit log IP address and user-agent capture in middleware (cycle 19)
+- **2026-10-06**: feat(register): tune barcode scanner input debounce and auto-focus retention (cycle 20)
