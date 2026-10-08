@@ -387,3 +387,4 @@
 - **2026-10-07**: feat(reports): improve cash drawer reconciliation math for overage and shortage discrepancies (cycle 20)
 - **2026-10-07**: feat(audit): patch customer loyalty points redemption ceiling against order subtotal (cycle 20)
 - **2026-10-08**: feat(ui): benchmark reorder point alert thresholds in inventory monitoring view (cycle 20)
+- **2026-10-08**: feat(api): clean up JWT token expiration handling and silent session refresh guard (cycle 20)
