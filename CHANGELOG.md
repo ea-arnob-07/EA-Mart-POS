@@ -392,3 +392,4 @@
 - **2026-10-09**: feat(security): update batch expiration date formatting and color-coded warning badges (cycle 20)
 - **2026-10-09**: feat(core): streamline goods receipt partial delivery discrepancy logging and supplier alert (cycle 20)
 - **2026-10-09**: feat(auth): polish EOD store day gross sales aggregation query performance with Prisma index (cycle 20)
+- **2026-10-09**: perf(pos): optimize damaged product write-off modal with audit log reason capture (cycle 20)
