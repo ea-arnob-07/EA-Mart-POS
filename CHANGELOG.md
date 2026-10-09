@@ -389,3 +389,4 @@
 - **2026-10-08**: feat(ui): benchmark reorder point alert thresholds in inventory monitoring view (cycle 20)
 - **2026-10-08**: feat(api): clean up JWT token expiration handling and silent session refresh guard (cycle 20)
 - **2026-10-08**: feat(db): enhance recharts responsiveness on mobile tablets and touch POS monitors (cycle 20)
+- **2026-10-09**: feat(security): update batch expiration date formatting and color-coded warning badges (cycle 20)
