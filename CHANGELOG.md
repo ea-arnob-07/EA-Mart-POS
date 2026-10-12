@@ -401,3 +401,4 @@
 - **2026-10-11**: feat(loyalty): improve stock transfer dispatch receipt confirmation handshake (cycle 20)
 - **2026-10-12**: feat(reports): patch audit log IP address and user-agent capture in middleware (cycle 20)
 - **2026-10-12**: feat(audit): benchmark barcode scanner input debounce and auto-focus retention (cycle 21)
+- **2026-10-12**: feat(ui): clean up split-payment balance calculation when tendering cash with bKash (cycle 21)
