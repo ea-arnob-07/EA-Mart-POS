@@ -399,3 +399,4 @@
 - **2026-10-11**: feat(transfers): audit password hashing cost factor calibration with bcryptjs (cycle 20)
 - **2026-10-11**: refactor(purchasing): refactor customer search indexing by phone number and membership number (cycle 20)
 - **2026-10-11**: feat(loyalty): improve stock transfer dispatch receipt confirmation handshake (cycle 20)
+- **2026-10-12**: feat(reports): patch audit log IP address and user-agent capture in middleware (cycle 20)
