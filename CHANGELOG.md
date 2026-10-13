@@ -403,3 +403,4 @@
 - **2026-10-12**: feat(audit): benchmark barcode scanner input debounce and auto-focus retention (cycle 21)
 - **2026-10-12**: feat(ui): clean up split-payment balance calculation when tendering cash with bKash (cycle 21)
 - **2026-10-13**: feat(api): enhance thermal receipt layout alignment for Bangladesh BIN number display (cycle 21)
+- **2026-10-13**: feat(db): update inventory on-hand vs available quantity tracking across multi-store transfers (cycle 21)
