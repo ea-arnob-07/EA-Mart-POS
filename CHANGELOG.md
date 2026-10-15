@@ -408,3 +408,4 @@
 - **2026-10-14**: feat(core): polish customer loyalty points redemption ceiling against order subtotal (cycle 21)
 - **2026-10-14**: perf(auth): optimize reorder point alert thresholds in inventory monitoring view (cycle 21)
 - **2026-10-14**: fix(pos): fix JWT token expiration handling and silent session refresh guard (cycle 21)
+- **2026-10-15**: feat(inventory): tune recharts responsiveness on mobile tablets and touch POS monitors (cycle 21)
