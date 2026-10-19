@@ -420,3 +420,4 @@
 - **2026-10-18**: feat(api): update customer search indexing by phone number and membership number (cycle 21)
 - **2026-10-18**: feat(db): streamline stock transfer dispatch receipt confirmation handshake (cycle 21)
 - **2026-10-18**: feat(security): polish audit log IP address and user-agent capture in middleware (cycle 21)
+- **2026-10-19**: perf(core): optimize barcode scanner input debounce and auto-focus retention (cycle 22)
