@@ -426,3 +426,4 @@
 - **2026-10-19**: feat(inventory): harden inventory on-hand vs available quantity tracking across multi-store transfers (cycle 22)
 - **2026-10-20**: feat(pricing): audit cash drawer reconciliation math for overage and shortage discrepancies (cycle 22)
 - **2026-10-20**: refactor(register): refactor customer loyalty points redemption ceiling against order subtotal (cycle 22)
+- **2026-10-20**: feat(transfers): improve reorder point alert thresholds in inventory monitoring view (cycle 22)
