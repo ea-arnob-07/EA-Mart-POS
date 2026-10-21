@@ -429,3 +429,4 @@
 - **2026-10-20**: feat(transfers): improve reorder point alert thresholds in inventory monitoring view (cycle 22)
 - **2026-10-21**: feat(purchasing): patch JWT token expiration handling and silent session refresh guard (cycle 22)
 - **2026-10-21**: feat(loyalty): benchmark recharts responsiveness on mobile tablets and touch POS monitors (cycle 22)
+- **2026-10-21**: feat(reports): clean up batch expiration date formatting and color-coded warning badges (cycle 22)
