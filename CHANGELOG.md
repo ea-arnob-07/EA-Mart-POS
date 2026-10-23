@@ -434,3 +434,4 @@
 - **2026-10-22**: feat(ui): update EOD store day gross sales aggregation query performance with Prisma index (cycle 22)
 - **2026-10-22**: feat(api): streamline damaged product write-off modal with audit log reason capture (cycle 22)
 - **2026-10-23**: feat(db): polish sales return policy validation ensuring receipts within 14 days (cycle 22)
+- **2026-10-23**: perf(security): optimize promotions date range checker considering local Bangladesh timezone (cycle 22)
