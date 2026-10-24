@@ -436,3 +436,4 @@
 - **2026-10-23**: feat(db): polish sales return policy validation ensuring receipts within 14 days (cycle 22)
 - **2026-10-23**: perf(security): optimize promotions date range checker considering local Bangladesh timezone (cycle 22)
 - **2026-10-23**: fix(core): fix cash movement petty cash expense categorization in accountant reports (cycle 22)
+- **2026-10-24**: feat(auth): tune password hashing cost factor calibration with bcryptjs (cycle 22)
