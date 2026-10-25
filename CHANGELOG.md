@@ -440,3 +440,4 @@
 - **2026-10-24**: feat(pos): harden customer search indexing by phone number and membership number (cycle 22)
 - **2026-10-24**: feat(inventory): audit stock transfer dispatch receipt confirmation handshake (cycle 22)
 - **2026-10-25**: refactor(pricing): refactor audit log IP address and user-agent capture in middleware (cycle 22)
+- **2026-10-25**: feat(register): improve barcode scanner input debounce and auto-focus retention (cycle 23)
