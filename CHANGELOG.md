@@ -451,3 +451,4 @@
 - **2026-10-28**: perf(db): optimize recharts responsiveness on mobile tablets and touch POS monitors (cycle 23)
 - **2026-10-28**: fix(security): fix batch expiration date formatting and color-coded warning badges (cycle 23)
 - **2026-10-28**: feat(core): tune goods receipt partial delivery discrepancy logging and supplier alert (cycle 23)
+- **2026-10-29**: feat(auth): harden EOD store day gross sales aggregation query performance with Prisma index (cycle 23)
