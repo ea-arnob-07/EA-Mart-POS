@@ -453,3 +453,4 @@
 - **2026-10-28**: feat(core): tune goods receipt partial delivery discrepancy logging and supplier alert (cycle 23)
 - **2026-10-29**: feat(auth): harden EOD store day gross sales aggregation query performance with Prisma index (cycle 23)
 - **2026-10-29**: feat(pos): audit damaged product write-off modal with audit log reason capture (cycle 23)
+- **2026-10-29**: refactor(inventory): refactor sales return policy validation ensuring receipts within 14 days (cycle 23)
