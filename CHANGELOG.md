@@ -458,3 +458,4 @@
 - **2026-10-30**: feat(register): patch cash movement petty cash expense categorization in accountant reports (cycle 23)
 - **2026-10-30**: feat(transfers): benchmark password hashing cost factor calibration with bcryptjs (cycle 23)
 - **2026-10-30**: feat(purchasing): clean up customer search indexing by phone number and membership number (cycle 23)
+- **2026-10-31**: feat(loyalty): enhance stock transfer dispatch receipt confirmation handshake (cycle 23)
