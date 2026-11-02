@@ -466,3 +466,4 @@
 - **2026-11-01**: fix(db): fix inventory on-hand vs available quantity tracking across multi-store transfers (cycle 24)
 - **2026-11-02**: feat(security): tune cash drawer reconciliation math for overage and shortage discrepancies (cycle 24)
 - **2026-11-02**: feat(core): harden customer loyalty points redemption ceiling against order subtotal (cycle 24)
+- **2026-11-02**: feat(auth): audit reorder point alert thresholds in inventory monitoring view (cycle 24)
