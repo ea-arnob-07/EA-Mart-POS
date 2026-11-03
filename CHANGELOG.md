@@ -469,3 +469,4 @@
 - **2026-11-02**: feat(auth): audit reorder point alert thresholds in inventory monitoring view (cycle 24)
 - **2026-11-03**: refactor(pos): refactor JWT token expiration handling and silent session refresh guard (cycle 24)
 - **2026-11-03**: feat(inventory): improve recharts responsiveness on mobile tablets and touch POS monitors (cycle 24)
+- **2026-11-03**: feat(pricing): patch batch expiration date formatting and color-coded warning badges (cycle 24)
