@@ -477,3 +477,4 @@
 - **2026-11-05**: feat(reports): streamline promotions date range checker considering local Bangladesh timezone (cycle 24)
 - **2026-11-05**: feat(audit): polish cash movement petty cash expense categorization in accountant reports (cycle 24)
 - **2026-11-06**: perf(ui): optimize password hashing cost factor calibration with bcryptjs (cycle 24)
+- **2026-11-06**: fix(api): fix customer search indexing by phone number and membership number (cycle 24)
