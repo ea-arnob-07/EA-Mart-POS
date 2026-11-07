@@ -479,3 +479,4 @@
 - **2026-11-06**: perf(ui): optimize password hashing cost factor calibration with bcryptjs (cycle 24)
 - **2026-11-06**: fix(api): fix customer search indexing by phone number and membership number (cycle 24)
 - **2026-11-06**: feat(db): tune stock transfer dispatch receipt confirmation handshake (cycle 24)
+- **2026-11-07**: feat(security): harden audit log IP address and user-agent capture in middleware (cycle 24)
