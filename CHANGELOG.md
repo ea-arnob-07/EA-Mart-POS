@@ -481,3 +481,4 @@
 - **2026-11-06**: feat(db): tune stock transfer dispatch receipt confirmation handshake (cycle 24)
 - **2026-11-07**: feat(security): harden audit log IP address and user-agent capture in middleware (cycle 24)
 - **2026-11-07**: feat(core): audit barcode scanner input debounce and auto-focus retention (cycle 25)
+- **2026-11-07**: refactor(auth): refactor split-payment balance calculation when tendering cash with bKash (cycle 25)
