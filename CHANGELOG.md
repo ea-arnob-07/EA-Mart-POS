@@ -485,3 +485,4 @@
 - **2026-11-08**: feat(pos): improve thermal receipt layout alignment for Bangladesh BIN number display (cycle 25)
 - **2026-11-08**: feat(inventory): patch inventory on-hand vs available quantity tracking across multi-store transfers (cycle 25)
 - **2026-11-08**: feat(pricing): benchmark cash drawer reconciliation math for overage and shortage discrepancies (cycle 25)
+- **2026-11-09**: feat(register): clean up customer loyalty points redemption ceiling against order subtotal (cycle 25)
