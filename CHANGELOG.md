@@ -495,3 +495,4 @@
 - **2026-11-11**: feat(api): tune damaged product write-off modal with audit log reason capture (cycle 25)
 - **2026-11-11**: feat(db): harden sales return policy validation ensuring receipts within 14 days (cycle 25)
 - **2026-11-11**: feat(security): audit promotions date range checker considering local Bangladesh timezone (cycle 25)
+- **2026-11-12**: refactor(core): refactor cash movement petty cash expense categorization in accountant reports (cycle 25)
