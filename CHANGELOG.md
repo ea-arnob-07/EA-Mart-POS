@@ -498,3 +498,4 @@
 - **2026-11-12**: refactor(core): refactor cash movement petty cash expense categorization in accountant reports (cycle 25)
 - **2026-11-12**: feat(auth): improve password hashing cost factor calibration with bcryptjs (cycle 25)
 - **2026-11-12**: feat(pos): patch customer search indexing by phone number and membership number (cycle 25)
+- **2026-11-13**: feat(inventory): benchmark stock transfer dispatch receipt confirmation handshake (cycle 25)
