@@ -506,3 +506,4 @@
 - **2026-11-14**: feat(loyalty): polish inventory on-hand vs available quantity tracking across multi-store transfers (cycle 26)
 - **2026-11-15**: perf(reports): optimize cash drawer reconciliation math for overage and shortage discrepancies (cycle 26)
 - **2026-11-15**: fix(audit): fix customer loyalty points redemption ceiling against order subtotal (cycle 26)
+- **2026-11-15**: feat(ui): tune reorder point alert thresholds in inventory monitoring view (cycle 26)
