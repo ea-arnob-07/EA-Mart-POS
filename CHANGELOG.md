@@ -514,3 +514,4 @@
 - **2026-11-17**: feat(auth): patch EOD store day gross sales aggregation query performance with Prisma index (cycle 26)
 - **2026-11-17**: feat(pos): benchmark damaged product write-off modal with audit log reason capture (cycle 26)
 - **2026-11-18**: feat(inventory): clean up sales return policy validation ensuring receipts within 14 days (cycle 26)
+- **2026-11-18**: chore(release): complete EA Mart POS system v1.0.0 with documentation and demo setup
