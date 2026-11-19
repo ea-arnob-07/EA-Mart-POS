@@ -4,17 +4,19 @@
 
 ![EA Mart Banner](https://img.shields.io/badge/EA%20Mart-Retail%20POS%20System-emerald?style=for-the-badge&logo=shopify&logoColor=white)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-ea--mart--pos.vercel.app-00df9a?style=for-the-badge&logo=vercel&logoColor=white)](https://ea-mart-pos.vercel.app/)
+
 [![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2-blue?style=flat-square&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Supabase](https://img.shields.io/badge/Database-Supabase%20PostgreSQL-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Prisma](https://img.shields.io/badge/Prisma-6.19-2D3748?style=flat-square&logo=prisma)](https://www.prisma.io/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 **A modern, enterprise-grade Multi-Store Retail Management and Point of Sale (POS) ecosystem tailored for high-volume retail chains, supermarkets, and specialty stores.**
 
-[Live Demo](#-live-demo--preview) • [Default Credentials](#-default-login-credentials) • [Key Features](#-key-features) • [Quick Start](#-quick-start) • [Deployment](#-deployment-guide)
+[🚀 Live Demo](https://ea-mart-pos.vercel.app/) • [Default Credentials](#-default-login-credentials) • [Supabase Database](#-supabase-database-configuration) • [Key Features](#-key-features) • [Quick Start](#-quick-start)
 
 </div>
 
@@ -24,27 +26,29 @@
 
 **EA Mart Retail Management System** is an end-to-end POS and retail ERP application built with modern full-stack web technologies. It is built to bridge front-of-house cashier speed with back-of-house multi-warehouse logistics, purchasing workflows, shift reconciliation, batch expiration tracking, and multi-tier role-based access control.
 
-Optimized out of the box for Bangladeshi retail operations with native **BDT (৳)** currency handling, Bangladesh VAT compliance, and local payment methods (bKash, Nagad, Rocket, Cards, Cash).
+The production deployment runs on **Vercel** backed by a high-availability **Supabase PostgreSQL** cloud database. Optimized out of the box for Bangladeshi retail operations with native **BDT (৳)** currency handling, Bangladesh VAT compliance, and local payment methods (bKash, Nagad, Rocket, Cards, Cash).
 
 ---
 
-## 🌐 Live Demo & Preview
+## 🌐 Live Demo & Repository
 
-- **Live Production URL**: [https://ea-mart-pos.vercel.app](https://ea-mart-pos.vercel.app)
-- **Local Dev URL**: `http://localhost:3000`
-- **GitHub Repository**: [ea-arnob-07/EA-Mart-POS](https://github.com/ea-arnob-07/EA-Mart-POS)
+> [!TIP]
+> 🔗 **Live Demo URL**: [https://ea-mart-pos.vercel.app](https://ea-mart-pos.vercel.app)  
+> 📦 **GitHub Repository**: [ea-arnob-07/EA-Mart-POS](https://github.com/ea-arnob-07/EA-Mart-POS)  
+> 💻 **Local Development**: `http://localhost:3000`
 
 ---
 
 ## 🗄️ Supabase Database Configuration
 
-The application is connected to a cloud **PostgreSQL** database hosted on **Supabase** (Tokyo region `ap-northeast-1` with IPv4 Connection Pooling):
+The system utilizes **[Supabase](https://supabase.com/)** as its managed cloud PostgreSQL database provider, configured with session-level IPv4 connection pooling:
 
-- **Database Host**: `aws-1-ap-northeast-1.pooler.supabase.com:5432`
+- **Database Platform**: [Supabase](https://supabase.com/) (AWS Tokyo `ap-northeast-1`)
+- **Connection Host**: `aws-1-ap-northeast-1.pooler.supabase.com:5432`
 - **Database User**: `postgres.zjuiacsvtaqqursfgmsd`
 - **Database Password**: `Arnob178202`
 - **Database Name**: `postgres`
-- **Connection URI (Session Pooler)**:
+- **Prisma Connection URI (Session Pooler)**:
   ```text
   postgresql://postgres.zjuiacsvtaqqursfgmsd:Arnob178202@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres?sslmode=require
   ```
@@ -53,7 +57,7 @@ The application is connected to a cloud **PostgreSQL** database hosted on **Supa
 
 ## 🔑 Default Login Credentials
 
-The login page includes a **"Login as (Demo Roles)"** dropdown button directly under the Continue button. Clicking any role will automatically populate its email address into the input field so you can log in instantly with the demo password.
+The login page includes a **"Login as (Roles)"** dropdown directly under the Continue button. Selecting any role will automatically populate its email address into the input field so you can sign in directly with the password.
 
 > [!IMPORTANT]
 > **Universal Demo Password:** `123456789` for all seeded demo accounts below.
@@ -116,7 +120,9 @@ The login page includes a **"Login as (Demo Roles)"** dropdown button directly u
 | **Language** | [TypeScript 5](https://www.typescriptlang.org/) |
 | **User Interface** | [React 19](https://react.dev/), [Tailwind CSS 4](https://tailwindcss.com/) |
 | **Icons & UI** | [Lucide React](https://lucide.dev/), [Recharts](https://recharts.org/) |
-| **Database & ORM**| [PostgreSQL](https://www.postgresql.org/) via [Prisma ORM 6](https://www.prisma.io/) |
+| **Database Provider**| [Supabase](https://supabase.com/) (Managed Cloud PostgreSQL) |
+| **ORM** | [Prisma ORM 6](https://www.prisma.io/) |
+| **Hosting & Deployment**| [Vercel](https://vercel.com/) (Edge Network & Serverless Functions) |
 | **Authentication**| JWT (JSON Web Tokens), `bcryptjs` password hashing |
 | **Runtime / Tooling** | Node.js 20+, `tsx` execution engine |
 
@@ -174,7 +180,7 @@ EA-Mart-Retail-Management-System/
 ### 1. Prerequisites
 - **Node.js**: `v20.x` or higher
 - **npm** or **pnpm**
-- **PostgreSQL**: Local instance or cloud database (Neon, Supabase, Railway)
+- **Database**: Cloud [Supabase](https://supabase.com/) or local PostgreSQL
 
 ### 2. Clone Repository
 ```bash
@@ -226,17 +232,16 @@ npm run currency:bdt
 
 ## 🚢 Deployment Guide
 
-### Deploying on Vercel
+### Deploying on Vercel with Supabase
 
-1. **Push to GitHub**: Ensure your code is pushed to your GitHub repository ([ea-arnob-07/EA-Mart-POS](https://github.com/ea-arnob-07/EA-Mart-POS)).
-2. **Provision Cloud Database**: Create a free PostgreSQL database on [Neon.tech](https://neon.tech/) or [Supabase](https://supabase.com/).
-3. **Connect to Vercel**:
+1. **Push to GitHub**: Code is maintained on [ea-arnob-07/EA-Mart-POS](https://github.com/ea-arnob-07/EA-Mart-POS).
+2. **Connect to Vercel**:
    - Go to [vercel.com/new](https://vercel.com/new) and import `ea-arnob-07/EA-Mart-POS`.
    - In **Environment Variables**, add:
-     - `DATABASE_URL`: Your hosted PostgreSQL connection string (with `?sslmode=require`).
-     - `JWT_SECRET`: A secure random secret string.
-4. **Deploy**: Click **Deploy**. Vercel will build the Next.js production bundle.
-5. **Run Migrations & Seed**: Run `npx prisma db push` and `npm run db:seed` against the production database.
+     - `DATABASE_URL`: `postgresql://postgres.zjuiacsvtaqqursfgmsd:Arnob178202@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres?sslmode=require`
+     - `JWT_SECRET`: `ea-mart-super-secret-jwt-key-2026`
+3. **Deploy**: Click **Deploy**. Vercel builds the Next.js production bundle.
+4. **Access Production Site**: [https://ea-mart-pos.vercel.app/](https://ea-mart-pos.vercel.app/)
 
 ---
 
