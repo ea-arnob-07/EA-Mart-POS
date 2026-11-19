@@ -155,7 +155,7 @@ export default function LoginPage() {
                     required
                     value={password}
                     onChange={(event) => setPassword(event.target.value)}
-                    placeholder="Enter your password (e.g. 123456789)"
+                    placeholder="Enter your password"
                   />
                   <button type="button" onClick={() => setShowPassword((value) => !value)} aria-label={showPassword ? 'Hide password' : 'Show password'}>
                     {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
@@ -184,8 +184,8 @@ export default function LoginPage() {
               >
                 <span className="ea-login-role-trigger-icon"><UserRound className="h-4 w-4" /></span>
                 <span className="ea-login-role-trigger-copy">
-                  <strong>Login as (Demo Roles)</strong>
-                  <small>Click to auto-fill role email · Password: 123456789</small>
+                  <strong>Login as (Roles)</strong>
+                  <small>Choose a role to auto-fill email address</small>
                 </span>
                 <ChevronDown className="h-4 w-4" />
               </button>
