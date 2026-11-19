@@ -30,15 +30,30 @@ Optimized out of the box for Bangladeshi retail operations with native **BDT (�
 
 ## 🌐 Live Demo & Preview
 
-- **Live URL**: [https://sixty-feet-cough.loca.lt](https://sixty-feet-cough.loca.lt) *(or local `http://localhost:3000`)*
-- *Tunnel Password (if prompted)*: `104.28.240.86`
+- **Live Production URL**: [https://ea-mart-pos.vercel.app](https://ea-mart-pos.vercel.app)
+- **Local Dev URL**: `http://localhost:3000`
 - **GitHub Repository**: [ea-arnob-07/EA-Mart-POS](https://github.com/ea-arnob-07/EA-Mart-POS)
+
+---
+
+## 🗄️ Supabase Database Configuration
+
+The application is connected to a cloud **PostgreSQL** database hosted on **Supabase** (Tokyo region `ap-northeast-1` with IPv4 Connection Pooling):
+
+- **Database Host**: `aws-1-ap-northeast-1.pooler.supabase.com:5432`
+- **Database User**: `postgres.zjuiacsvtaqqursfgmsd`
+- **Database Password**: `Arnob178202`
+- **Database Name**: `postgres`
+- **Connection URI (Session Pooler)**:
+  ```text
+  postgresql://postgres.zjuiacsvtaqqursfgmsd:Arnob178202@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres?sslmode=require
+  ```
 
 ---
 
 ## 🔑 Default Login Credentials
 
-The application includes 9 pre-configured demo roles covering every aspect of retail operations. You can select any role from the **"Login as"** dropdown on the login screen, or enter the credentials manually.
+The login page includes a **"Login as (Demo Roles)"** dropdown button directly under the Continue button. Clicking any role will automatically populate its email address into the input field so you can log in instantly with the demo password.
 
 > [!IMPORTANT]
 > **Universal Demo Password:** `123456789` for all seeded demo accounts below.
@@ -175,7 +190,8 @@ npm install
 ### 4. Configure Environment Variables
 Create a `.env` file in the root directory (or copy from `.env.example`):
 ```env
-DATABASE_URL="postgresql://postgres:your_password@localhost:5432/ea_mart?schema=public"
+# Supabase Cloud Database (Tokyo Pooler)
+DATABASE_URL="postgresql://postgres.zjuiacsvtaqqursfgmsd:Arnob178202@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres?sslmode=require"
 JWT_SECRET="ea-mart-super-secret-jwt-key-2026"
 ```
 

@@ -19,15 +19,15 @@ import {
 } from 'lucide-react';
 
 const demoRoles = [
-  { role: 'SUPER_ADMIN', label: 'Super Admin', username: 'admin', description: 'Full platform access' },
-  { role: 'STORE_OWNER', label: 'Store Owner', username: 'owner', description: 'Store-wide controls' },
-  { role: 'STORE_MANAGER', label: 'Store Manager', username: 'manager', description: 'Daily operations' },
-  { role: 'CASHIER', label: 'Cashier', username: 'cashier01', description: 'POS and sales' },
-  { role: 'INVENTORY_MANAGER', label: 'Inventory Manager', username: 'inventory01', description: 'Stock and products' },
-  { role: 'PURCHASING_OFFICER', label: 'Purchasing Officer', username: 'purchase01', description: 'Orders and suppliers' },
-  { role: 'ACCOUNTANT', label: 'Accountant', username: 'accountant01', description: 'Finance and reports' },
-  { role: 'WAREHOUSE_STAFF', label: 'Warehouse Staff', username: 'warehouse01', description: 'Warehouse operations' },
-  { role: 'AUDITOR', label: 'Auditor', username: 'auditor01', description: 'Audit and reporting' },
+  { role: 'SUPER_ADMIN', label: 'Super Admin', username: 'admin', email: 'admin@eamart.test', description: 'Full platform access' },
+  { role: 'STORE_OWNER', label: 'Store Owner', username: 'owner', email: 'owner@eamart.test', description: 'Store-wide controls' },
+  { role: 'STORE_MANAGER', label: 'Store Manager', username: 'manager', email: 'manager@eamart.test', description: 'Daily operations' },
+  { role: 'CASHIER', label: 'Cashier', username: 'cashier01', email: 'cashier@eamart.test', description: 'POS and sales' },
+  { role: 'INVENTORY_MANAGER', label: 'Inventory Manager', username: 'inventory01', email: 'inventory@eamart.test', description: 'Stock and products' },
+  { role: 'PURCHASING_OFFICER', label: 'Purchasing Officer', username: 'purchase01', email: 'purchasing@eamart.test', description: 'Orders and suppliers' },
+  { role: 'ACCOUNTANT', label: 'Accountant', username: 'accountant01', email: 'accountant@eamart.test', description: 'Finance and reports' },
+  { role: 'WAREHOUSE_STAFF', label: 'Warehouse Staff', username: 'warehouse01', email: 'warehouse@eamart.test', description: 'Warehouse operations' },
+  { role: 'AUDITOR', label: 'Auditor', username: 'auditor01', email: 'auditor@eamart.test', description: 'Audit and reporting' },
 ] as const;
 
 export default function LoginPage() {
@@ -40,9 +40,9 @@ export default function LoginPage() {
   const [showDemoRoles, setShowDemoRoles] = useState(false);
   const passwordInputRef = useRef<HTMLInputElement>(null);
 
-  const handleDemoRoleSelect = (username: string) => {
+  const handleDemoRoleSelect = (email: string) => {
     setError(null);
-    setIdentifier(username);
+    setIdentifier(email);
     setPassword('');
     setShowDemoRoles(false);
     passwordInputRef.current?.focus();
@@ -155,7 +155,7 @@ export default function LoginPage() {
                     required
                     value={password}
                     onChange={(event) => setPassword(event.target.value)}
-                    placeholder="Enter your password"
+                    placeholder="Enter your password (e.g. 123456789)"
                   />
                   <button type="button" onClick={() => setShowPassword((value) => !value)} aria-label={showPassword ? 'Hide password' : 'Show password'}>
                     {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
@@ -173,41 +173,39 @@ export default function LoginPage() {
               </button>
             </form>
 
-            {process.env.NODE_ENV !== 'production' && (
-              <div className="ea-login-role-picker">
-                <button
-                  type="button"
-                  className="ea-login-role-trigger"
-                  onClick={() => setShowDemoRoles((value) => !value)}
-                  aria-expanded={showDemoRoles}
-                  aria-haspopup="menu"
-                  disabled={loading}
-                >
-                  <span className="ea-login-role-trigger-icon"><UserRound className="h-4 w-4" /></span>
-                  <span className="ea-login-role-trigger-copy">
-                    <strong>Login as</strong>
-                    <small>Choose a demo role to open its workspace</small>
-                  </span>
-                  <ChevronDown className="h-4 w-4" />
-                </button>
-                {showDemoRoles && (
-                  <div className="ea-login-role-menu" role="menu" aria-label="Choose a demo role">
-                    {demoRoles.map((item) => (
-                      <button
-                        key={item.role}
-                        type="button"
-                        className="ea-login-role-option"
-                        role="menuitem"
-                        onClick={() => handleDemoRoleSelect(item.username)}
-                      >
-                        <strong>{item.label}</strong>
-                        <small>{item.username} · {item.description}</small>
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
+            <div className="ea-login-role-picker mt-4">
+              <button
+                type="button"
+                className="ea-login-role-trigger"
+                onClick={() => setShowDemoRoles((value) => !value)}
+                aria-expanded={showDemoRoles}
+                aria-haspopup="menu"
+                disabled={loading}
+              >
+                <span className="ea-login-role-trigger-icon"><UserRound className="h-4 w-4" /></span>
+                <span className="ea-login-role-trigger-copy">
+                  <strong>Login as (Demo Roles)</strong>
+                  <small>Click to auto-fill role email · Password: 123456789</small>
+                </span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+              {showDemoRoles && (
+                <div className="ea-login-role-menu" role="menu" aria-label="Choose a demo role">
+                  {demoRoles.map((item) => (
+                    <button
+                      key={item.role}
+                      type="button"
+                      className="ea-login-role-option"
+                      role="menuitem"
+                      onClick={() => handleDemoRoleSelect(item.email)}
+                    >
+                      <strong>{item.label}</strong>
+                      <small>{item.email} · {item.description}</small>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="ea-login-panel-footer">
